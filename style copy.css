@@ -1,0 +1,196 @@
+body {
+  font-family: Arial;
+  line-height: 1.4em;
+  background-image: url("MRDIY_UVP_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+
+h3{
+	margin: 0 auto; 
+	color: white;
+}
+
+h1{
+	font-family: 'Londrina Solid', cursive;
+	font-size: 50px;
+	line-height: 60px;
+	color: white;
+	text-shadow: 0px 3px 10px #000000;
+	margin: 0 auto;
+}
+
+h2{
+	font-family: 'Londrina Solid', cursive;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	color: #235797;
+}
+
+
+p{
+	padding:20px;
+}
+
+.bigAssContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+
+}
+
+ .animated {         
+  	margin-bottom:60px;
+  	-webkit-animation-duration: 1s;
+  	animation-duration: 1s; 
+  	-webkit-animation-fill-mode: both; 
+  	animation-fill-mode: both; 
+}
+         
+@-webkit-keyframes bounce { 
+   	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+   	40% {-webkit-transform: translateY(-30px);} 
+   	60% {-webkit-transform: translateY(-15px);} 
+} 
+
+@keyframes bounce { 
+   	0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   	40% {transform: translateY(-30px);} 
+   	60% {transform: translateY(-15px);} 
+}
+
+.bounce { 
+   	-webkit-animation-name: bounce; 
+   	animation-name: bounce; 
+}
+
+.guessButton{
+	padding: 16px 20px;
+	margin: 0 10px 0 10px;
+	width: 150px;
+	background-color: #36cdff;
+	font-family: 'Londrina Solid', cursive;
+	letter-spacing: 1px;
+	font-size: 25px;
+	color: white;
+	border: none;
+	border-radius: 100px;
+	box-shadow: 0px 3px 10px #000000;
+
+}
+
+#player-guess{
+	margin: 5px;	
+	padding: 5px 30px;
+	width: 200px;
+	height: 50px;
+	font-family: 'Londrina Solid', cursive;
+	font-size: 25px;
+	line-height: 32px;
+	border: none;
+	border-radius: 100px;
+	box-shadow: 0px 3px 10px #000000;
+
+}
+
+#player-submit{
+	margin: 5px;
+	padding: 20px;
+
+}
+
+.section{
+	text-align: center;
+	margin: 100px 0 0 0;
+}
+
+.anotherSection{
+	text-align: center;
+	margin: 2px 0 10px 0;
+}
+
+.letterSection{
+	text-align: center;
+	margin: 30px 30px 40px 30px;
+}
+
+.guessSection{
+	text-align: center;
+	margin: 30px 30px 40px 30px;
+}
+
+#player-input{
+	text-align: center;
+}
+
+#word{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 20px 0;
+	font-family: 'Londrina Solid', cursive;
+	font-weight: normal;
+	font-size: 80px;
+	color: #235797;
+}
+
+#past-guesses{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	font-family: 'Londrina Solid', cursive;
+}
+
+#past-guesses li{
+	margin: 5px;
+	font-size: 30px;
+	color: white;
+	background-color: #ef2a46;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 3px 10px #000000;
+}
+
+#guesses-left{
+	font-family: 'Londrina Solid', cursive;
+	font-size: 50px;
+	color: white;
+	text-shadow: 0px 3px 10px #000000;
+}
+
+.container {
+  max-width: 60em;
+  margin: 2em auto;
+  text-align: center;
+  text-shadow: 0px 3px 10px #000000;
+}
+
+#playAgain {
+  display: inline-block;
+  text-decoration: none;
+  text-shadow: 0px 2px 5px #000000;
+  color: #eff6ec;
+  background-color: #ef2a46;
+  padding: 20px 60px;
+  margin: 10px;
+  border-radius: 100px;
+  font-size: 20px;
+  box-shadow: 0px 3px 10px #000000;
+ 
+}
+
+.link{
+	text-decoration: none;
+}
+
+.hidden{
+	display: none;
+}
+
+.guessDetails{
+	display: flex;
+	justify-content: center;
+}
